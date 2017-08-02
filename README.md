@@ -8,8 +8,8 @@ Beebot
 Canvas 
  
 Title and instructions  
-<h1>The Beebot</h> 
-<h2>Introducing children to coding</h> 
+The Beebot
+Introducing children to coding
  
 Beebot 
 6 buttons in a grid 
@@ -17,7 +17,7 @@ Beebot
 Turn left,       Go.       , Turn right  
   (Clear)  , Backwards,         - 
  
-Forward: Black up arrow on orange button 
+Forward: Black up arrow on orange button
 Turn left: Black left arrow on orange button 
 Go: Black "GO" on green button 
 Turn right: Black right arrow on orange button 
