@@ -23,7 +23,7 @@ h1, h2 {
   padding: 17px
 }
 h1 {
-  font-family: bungee;
+  font-family: coiny;
   font-size: 43px;
   color: #FFFF00;
 }
@@ -36,6 +36,7 @@ canvas {
   margin: auto;
   display: block;
   background: #fff;
+  outline: 3px solid #000;
 }
 figure {margin: 1em 40px}
 .beebot {margin: 2px}
@@ -44,7 +45,7 @@ button {
   text-transform: none;
   cursor: pointer;
   background-color: #FF5000;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #aaa;
   margin: 3px;
   padding: 0;
   color: #000;
@@ -57,13 +58,24 @@ button {
   width: 60px;
   height: 35px;
   line-height: 0;
-  vertical-align: middle
+  vertical-align: middle;
+  outline: 0
+}
+button:hover {background-color: #FF9000}
+button:active {
+  background-color: #FF9000;
+  transform: translateY(4px);
 }
 #go {
   background-color: #4CAF50;
   border-radius: 100%;
   width: 60px;
   height: 60px
+}
+#go:hover {background-color: #3e8e41}
+#go:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
 }
 #up, #down {
   width: 35px;
@@ -79,7 +91,8 @@ body {
 a {
   color:#0366d6;
   text-decoration:none;
-  background-color: transparent
+  background-color: transparent;
+  outline: 0
 }
 a:hover, a:active {
   text-decoration: underline;
