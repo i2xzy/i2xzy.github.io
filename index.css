@@ -1,0 +1,63 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
+html {font-family: sans-serif;}
+body {
+  margin: auto;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    #000,
+    #000 50%,
+    #FFFF00 50%,
+    #FFFF00
+  );
+  background-size: 100% 200px;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 600;
+  padding: 25px
+}
+h1 {font-size: 32px}
+h2 {font-size: 24px}
+h3 {font-size: 20px}
+h4 {font-size: 16px}
+h5 {font-size: 14px}
+h6 {font-size: 12px}
+p {
+  margin-top: 0;
+  margin-bottom: 10px
+}
+canvas {
+  margin: auto;
+  display: block;
+  background: #fff;
+}
+figure {margin: 1em 40px}
+button {
+  font: inherit;
+  margin: 5px;
+  overflow: visible;
+  text-transform: none;
+  cursor: pointer
+}
+body {
+  font-family:"Segoe UI", Helvetica, Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff
+}
+a {
+  color:#0366d6;
+  text-decoration:none;
+  background-color: transparent
+}
+a:hover, a:active {
+  text-decoration: underline;
+  outline-width: 0
+}
