@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i2xzy.github.io</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="i2xzygithubio">Beebot</h1>
+      <div class="beebot">
+        <div class="row">
+          <button id="up" onclick="program('forward')">Forward</button>
+        </div>
+        <div class="row">
+          <button id="left" onclick="program('left')">Turn Left</button>
+          <button onclick="execute()">Go</button>
+          <button id="right" onclick="program('right')">Turn Right</button>
+        </div>
+        <div class="row">
+          <button id="down" onclick="program('backwards')">Backwards</button>
+        </div>
+      </div>
+      <div id=canvas_container>
+        <canvas id="beeBot" width="500" height="500">
+          <p>Your browser doesn't support canvas.</p>
+        </canvas>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
