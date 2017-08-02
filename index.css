@@ -15,19 +15,19 @@ body {
   );
   background-size: 100% 200px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   margin-top: 0;
   margin-bottom: 0;
   color: #fff;
   font-weight: 600;
-  padding: 25px
+  padding: 17px
 }
-h1 {font-size: 32px}
+h1 {
+  font-family: bungee;
+  font-size: 43px;
+  color: #FFFF00;
+}
 h2 {font-size: 24px}
-h3 {font-size: 20px}
-h4 {font-size: 16px}
-h5 {font-size: 14px}
-h6 {font-size: 12px}
 p {
   margin-top: 0;
   margin-bottom: 10px
@@ -38,12 +38,36 @@ canvas {
   background: #fff;
 }
 figure {margin: 1em 40px}
+.beebot {margin: 2px}
 button {
-  font: inherit;
-  margin: 5px;
   overflow: visible;
   text-transform: none;
-  cursor: pointer
+  cursor: pointer;
+  background-color: #FF5000;
+  border: 1px solid #FFFFFF;
+  margin: 3px;
+  padding: 0;
+  color: #000;
+  font: Impact, Charcoal, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  width: 60px;
+  height: 35px;
+  line-height: 0;
+  vertical-align: middle
+}
+#go {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px
+}
+#up, #down {
+  width: 35px;
+  height: 60px
 }
 body {
   font-family:"Segoe UI", Helvetica, Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
@@ -60,4 +84,30 @@ a {
 a:hover, a:active {
   text-decoration: underline;
   outline-width: 0
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
