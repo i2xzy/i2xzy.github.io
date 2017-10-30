@@ -9,14 +9,10 @@ striped black and yellow striped background
 Header 1: The Beebot  
 Header 2: Introducing children to coding
  
-**Beebot**
-
-6 buttons in a grid
-
-       -       ,   Forward   ,         - 
-       
-Turn left,       Go.       , Turn right  
-
+**Beebot**  
+6 buttons in a grid  
+       -       ,   Forward   ,         -  
+Turn left,       Go.       , Turn right   
   (Clear)  , Backwards,         - 
  
 * Forward: Black up arrow on orange button
