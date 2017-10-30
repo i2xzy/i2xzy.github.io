@@ -7,9 +7,9 @@ Canvas
  
 **Title and instructions**
 
-<h1>The Beebot</h>
+Header 1: The Beebot
 
-<h2>Introducing children to coding</h>
+Header 2: Introducing children to coding
  
 **Beebot**
 
@@ -33,16 +33,16 @@ Go button: onClick call function to execute draw program
 (Clear button: onClick call function to empty array) 
  
 Iterate through array and call direction function that matches case 
-Forward should animate move sprite x pixels in direction 
-Backwards should animate move sprite -x pixels in direction 
-Right should change direction and animate rotate sprite by 90 degrees 
-Left should change direction and animate rotate sprite by -90 degrees 
+* Forward should animate move sprite x pixels in direction 
+* Backwards should animate move sprite -x pixels in direction 
+* Right should change direction and animate rotate sprite by 90 degrees 
+* Left should change direction and animate rotate sprite by -90 degrees 
  
 **Canvas**
-Clear canvas 
-Set position and direction to default  
-{Draw image at position facing direction 
-Clear canvas 
-Move or rotate image 
-Go back to 3} 
-(draw line) 
+1. Clear canvas 
+2. Set position and direction to default  
+3. {Draw image at position facing direction 
+4. Clear canvas 
+5. Move or rotate image 
+6. Go back to 3} 
+7. (draw line) 
