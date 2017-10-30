@@ -1,17 +1,15 @@
-i2xzy.github.io
-
-##BEE-BOT
+# BEE-BOT
 
 striped black and yellow striped background  
 Title and instructions 
 Beebot 
 Canvas 
  
-Title and instructions  
+**Title and instructions**
 The Beebot
 Introducing children to coding
  
-Beebot 
+**Beebot**
 6 buttons in a grid 
        -       ,   Forward   ,         - 
 Turn left,       Go.       , Turn right  
@@ -34,7 +32,7 @@ Backwards should animate move sprite -x pixels in direction
 Right should change direction and animate rotate sprite by 90 degrees 
 Left should change direction and animate rotate sprite by -90 degrees 
  
-Canvas 
+**Canvas**
 Clear canvas 
 Set position and direction to default  
 {Draw image at position facing direction 
