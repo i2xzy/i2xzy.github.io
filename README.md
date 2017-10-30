@@ -5,10 +5,8 @@ Title and instructions
 Beebot 
 Canvas 
  
-**Title and instructions**
-
-Header 1: The Beebot
-
+**Title and instructions**  
+Header 1: The Beebot  
 Header 2: Introducing children to coding
  
 **Beebot**
@@ -28,7 +26,7 @@ Turn left,       Go.       , Turn right
 * (Clear: Black "CLEAR" on orange button) 
 * Backwards: Black down arrow on orange button 
  
-Direction buttons: onClick call function to push direction to array 
+Direction buttons: onClick call function to push direction to array  
 Go button: onClick call function to execute draw program  
 (Clear button: onClick call function to empty array) 
  
