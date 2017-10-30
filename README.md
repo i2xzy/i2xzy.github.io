@@ -1,6 +1,6 @@
-# i2xzy.github.io
+i2xzy.github.io
 
-BEE-BOT
+##BEE-BOT
 
 striped black and yellow striped background  
 Title and instructions 
