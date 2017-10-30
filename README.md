@@ -6,21 +6,27 @@ Beebot
 Canvas 
  
 **Title and instructions**
-The Beebot
-Introducing children to coding
+
+<h1>The Beebot</h>
+
+<h2>Introducing children to coding</h>
  
 **Beebot**
-6 buttons in a grid 
+
+6 buttons in a grid
+
        -       ,   Forward   ,         - 
+       
 Turn left,       Go.       , Turn right  
+
   (Clear)  , Backwards,         - 
  
-Forward: Black up arrow on orange button
-Turn left: Black left arrow on orange button 
-Go: Black "GO" on green button 
-Turn right: Black right arrow on orange button 
-(Clear: Black "CLEAR" on orange button) 
-Backwards: Black down arrow on orange button 
+* Forward: Black up arrow on orange button
+* Turn left: Black left arrow on orange button 
+* Go: Black "GO" on green button 
+* Turn right: Black right arrow on orange button 
+* (Clear: Black "CLEAR" on orange button) 
+* Backwards: Black down arrow on orange button 
  
 Direction buttons: onClick call function to push direction to array 
 Go button: onClick call function to execute draw program  
