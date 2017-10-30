@@ -1,9 +1,9 @@
 # BEE-BOT
 
 striped black and yellow striped background  
-Title and instructions 
-Beebot 
-Canvas 
+* Title and instructions 
+* Beebot 
+* Canvas 
  
 **Title and instructions**  
 Header 1: The Beebot  
