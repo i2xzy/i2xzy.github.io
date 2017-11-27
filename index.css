@@ -16,7 +16,7 @@ body {
 
 #left {
   flex-direction: column;
-  background-color: white;
+  background-color: black;
   width: 22vw;
 }
 
@@ -51,7 +51,7 @@ ul {
 a {
   font-family: Sans-Serif;
   font-size: 4.5vw;
-  color: green;
+  color: white;
   text-decoration: none;
 }
 
