@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  height: 100%;
+}
+
+#left {
+  flex-direction: column;
+  background-color: white;
+  width: 22vw;
+}
+
+.square {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 1vw;
+  height: 20vw;
+  width: 90%;
+  border-radius: 20px;
+  background-image: url("https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=115397733");
+  background-size: 100% 100%;
+}
+
+.circle {
+  margin: 0 auto;
+  height: 95%;
+  width: 95%;
+  border-radius: 150px;
+  background: white;
+  font-size: 5vw;
+  font-family: Sans-Serif;
+}
+
+ul {
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  font-family: Sans-Serif;
+  font-size: 4.5vw;
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+#right {
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: #efe;
+  text-align: center;
+}
+
+.page {
+  height: 100vh;
+  padding: 30px;
+}
+
+.page-content {
+  margin: 0 auto;
+  font-family: Sans-Serif;
+  font-size: 30px;
+}
