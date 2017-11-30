@@ -66,7 +66,7 @@ div.tab button.active, div.tab button.active:hover {
 }
 
 .tab1 {
-  background-image: url("https://images3.alphacoders.com/853/thumb-1920-85305.jpg");
+  background-image: url(".../profile1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
