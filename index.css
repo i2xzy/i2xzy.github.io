@@ -29,20 +29,16 @@ div.tab button {
   font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
-
 div.tab button:hover {
   color: #000;
 }
-
-/* Create an active/current "tab button" class */
 
 div.tab button.active, div.tab button.active:hover {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
 
-#home {
+#homebutton {
   height: 30vw;
   text-align: center;
   font-size: 5vmax;
@@ -61,23 +57,41 @@ div.tab button.active, div.tab button.active:hover {
   float: right;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
-.tab1 {
-  background-image: url(profile1.jpg);
+.text {
+  padding: 20px;
+  background-color: #000;
+  text-align: center;
+}
+
+.hometab {
+  background-image: url(home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.tab2 {
-  background-color: #27ae60;
+.pasttab {
+  background-image: url(past.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.tab3 {
-  background-color: #2980b9;
+.presenttab {
+  background-image: url(present.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.futuretab {
+  background-image: url(future.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Small Devices, Tablets */
@@ -87,9 +101,12 @@ div.tab button.active, div.tab button.active:hover {
     position: fixed;
     width: 25vw;
   }
-  #home {
+  #homebutton {
     height: 25vw;
     font-size: 5vmax;
+  }
+  .textarea {
+    width: 75vw;
   }
 }
 
@@ -100,8 +117,11 @@ div.tab button.active, div.tab button.active:hover {
     position: fixed;
     width: 20vw;
   }
-  #home {
+  #homebutton {
     height: 20vw;
     font-size: 5vmax;
+  }
+  .textarea {
+    width: 80vw;
   }
 }

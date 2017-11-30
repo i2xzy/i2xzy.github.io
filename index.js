@@ -1,4 +1,4 @@
-function openCity(event, tab) {
+function openTab(event, tab) {
   let tabcontent = document.getElementsByClassName("tabcontent");
   for (let i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
@@ -11,4 +11,4 @@ function openCity(event, tab) {
   event.currentTarget.className += " active";
 }
 
-document.getElementById("home").click();
+document.getElementById("homebutton").click();
