@@ -1,79 +1,106 @@
-html, body {
-  height: 100%;
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  overflow: hidden;
+  font-family: "Segoe UI", sans-serif;
+}
+
+div.tab {
+  position: fixed;
   margin: 0;
-  display: flex;
-  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 30vw;
+  height: 100vh;
 }
 
-.column {
-  height: 100%;
+div.tab button {
+  display: block;
+  background-color: transparent;
+  color: #fff;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
-#left {
-  flex-direction: column;
-  background-color: black;
-  width: 22vw;
+/* Change background color of buttons on hover */
+
+div.tab button:hover {
+  color: #000;
 }
 
-.square {
+/* Create an active/current "tab button" class */
+
+div.tab button.active, div.tab button.active:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+#home {
+  height: 30vw;
   text-align: center;
+  font-size: 5vmax;
+}
+
+.tabcontent {
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.textarea {
+  width: 70vw;
+  float: right;
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1vw;
-  height: 20vw;
-  width: 90%;
-  border-radius: 20px;
-  background-image: url(../profile1.jpg);
-  background-size: 100% 100%;
+  flex-direction: column;
 }
 
-.circle {
-  margin: 0 auto;
-  height: 95%;
-  width: 95%;
-  border-radius: 150px;
-  background: white;
-  font-size: 5vw;
-  font-family: Sans-Serif;
+.tab1 {
+  background-image: url("https://images3.alphacoders.com/853/thumb-1920-85305.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-ul {
-  padding-left: 0;
-  text-align: center;
-  list-style: none;
+.tab2 {
+  background-color: #27ae60;
 }
 
-a {
-  font-family: Sans-Serif;
-  font-size: 4.5vw;
-  color: white;
-  text-decoration: none;
+.tab3 {
+  background-color: #2980b9;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: orange;
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+  div.tab {
+    position: fixed;
+    width: 25vw;
+  }
+  #home {
+    height: 25vw;
+    font-size: 5vmax;
+  }
 }
 
-#right {
-  flex-grow: 1;
-  overflow-y: auto;
-  background-color: #efe;
-  text-align: center;
-}
+/* Medium Devices, Desktops */
 
-.page {
-  height: 100vh;
-  padding: 30px;
-}
-
-.page-content {
-  margin: 0 auto;
-  font-family: Sans-Serif;
-  font-size: 30px;
+@media only screen and (min-width: 992px) {
+  div.tab {
+    position: fixed;
+    width: 20vw;
+  }
+  #home {
+    height: 20vw;
+    font-size: 5vmax;
+  }
 }
