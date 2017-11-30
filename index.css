@@ -66,9 +66,10 @@ div.tab button.active, div.tab button.active:hover {
 }
 
 .tab1 {
-  background-image: url(".../profile1.jpg");
+  background-image: url(profile1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tab2 {
