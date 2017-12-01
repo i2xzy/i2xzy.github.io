@@ -10,9 +10,13 @@ body {
 div.tab {
   position: fixed;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 30vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
 }
 
 div.tab button {
@@ -31,27 +35,38 @@ div.tab button {
 
 div.tab button:hover {
   color: #000;
+  font-weight: bold;
 }
 
 div.tab button.active, div.tab button.active:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
+  color: #000;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #homebutton {
-  height: 30vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #000;
+  font-weight: bold;
+  height: 10vw;
   text-align: center;
-  font-size: 5vmax;
+  font-size: 3vmin;
+  padding: 10px;
+}
+
+.profile {
+  width: 100%;
 }
 
 .exlinks {
   display: flex;
   justify-content: space-around;
+  margin-top: 5vw;
 }
 
 .link {
-  width: 42px;
-  height: 42px;
+  width: 5vw;
+  height: 5vw;
   border:0;
 }
 
@@ -113,8 +128,7 @@ div.tab button.active, div.tab button.active:hover {
     width: 25vw;
   }
   #homebutton {
-    height: 25vw;
-    font-size: 5vmax;
+    font-size: 3vmax;
   }
   .textarea {
     width: 75vw;
@@ -129,8 +143,7 @@ div.tab button.active, div.tab button.active:hover {
     width: 20vw;
   }
   #homebutton {
-    height: 20vw;
-    font-size: 5vmax;
+    font-size: 2vmax;
   }
   .textarea {
     width: 80vw;
