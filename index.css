@@ -9,6 +9,8 @@ body {
 
 h3 {
   text-transform: uppercase;
+  margin-bottom: 0.8rem;
+
 }
 
 p {
@@ -72,7 +74,7 @@ div.tab button.active, div.tab button.active:hover {
   display: flex;
   justify-content: space-around;
   margin-top: 5vw;
-  padding-bottom: 25px;
+  padding-bottom: 5vh;
 }
 
 .link {
@@ -102,9 +104,23 @@ div.tab button.active, div.tab button.active:hover {
 }
 
 .text {
-  padding: 20px;
-  background-color: #000;
+  margin: 10vw;
+  padding: 2vw;
+  background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:hover, a:visited {
+  color: #fff;
 }
 
 .hometab {
