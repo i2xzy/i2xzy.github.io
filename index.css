@@ -44,6 +44,11 @@ div.tab button.active, div.tab button.active:hover {
   font-size: 5vmax;
 }
 
+.exlinks {
+  display: flex;
+  justify-content: space-around;
+}
+
 .link {
   width: 42px;
   height: 42px;
