@@ -56,6 +56,7 @@ div.tab button.active, div.tab button.active:hover {
 
 .profile {
   width: inherit;
+  max-width: 300px;
 }
 
 .exlinks {
