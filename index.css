@@ -44,6 +44,12 @@ div.tab button.active, div.tab button.active:hover {
   font-size: 5vmax;
 }
 
+.link {
+  width: 42px;
+  height: 42px;
+  border:0;
+}
+
 .tabcontent {
   color: #fff;
   width: 100%;
